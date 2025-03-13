@@ -43,6 +43,16 @@ p + p {
     margin-top: 40px;
 }
 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Preloader                                            */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Header                                               */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 header {
     height: 60px;
 }
@@ -550,7 +560,7 @@ footer p {
     .project-article {
         height: 300px;
     }
-    
+
     .column {
         flex: 0 0 calc(50% - 10px);
         max-width: calc(50% - 10px);
