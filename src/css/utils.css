@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+:root {
+    --app-background-dark: #181720;
+    --app-background-darkb: rgb(24, 23, 32);
+    --app-background-darkc: rgb(19, 19, 22);
+    --app-background-white: rgb(245, 245, 246);
+    --background-color-primary: rgb(24, 23, 32);
+    --background-color-secondary: rgb(244 243 255 / 0.06);
+    /* -o-transition: transitionIn 0.75s; */
+    --theme-color: #4F33FF;
+    --second-theme-color: #ff6531;
+    /* --paragraph-color: rgba(255, 255, 255, 0.1); */
+    --paragraph-color: #c6c2e0;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10 deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.row-one, .price-row, .team-row, .learn-more {
+    flex-wrap: wrap;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.primary-icon-btn {
+    display: block;
+    width: 140px;
+    padding: 14px 0;
+    color: #fff;
+    background-color: #4F33FF;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.primary-icon-btn:hover {
+    background-color: #ff6531;
+    transform: translateY(-5px);
+}
+
+.secondary-icon-btn {
+    display: block;
+    width: 140px;
+    padding: 14px 0;
+    color: #4F33FF;
+    background: transparent;
+    border: 1px solid #4F33FF;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.secondary-icon-btn:hover {
+    color: #fff;
+    background-color: #4F33FF;
+    transform: translateY(-5px);
+}
+
+section {
+    padding: 65px 0 65px 0;
+}
+
+.section-heading {
+    padding: 0px 0 25px 0;
+}
+
+.section-heading h3 {
+    color: #fff;
+    font-size: 46.4px;
+    padding-top: 10px;
+}
+
+.section-heading p {
+    color: #747475;
+    text-align: center;
+}
+
+.section-heading h3 span {
+    color: #fff;
+}
+
+.section-heading h6 {
+    color: #ff6531;
+    border-radius: 3px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.row-one, .row {
+    flex-wrap: wrap;
+}
+
+hr {
+    border: none;
+    width: 80px;
+    height: 4px;
+    background-color: var(--theme-color);
+    border-radius: 5px;
+    margin: 10px 0;
+}
